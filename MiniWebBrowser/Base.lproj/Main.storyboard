@@ -73,6 +73,7 @@
                     </view>
                     <connections>
                         <outlet property="urlInput" destination="XZv-dK-LZA" id="7qj-py-kx8"/>
+                        <outlet property="webViewDisplay" destination="dNe-Ta-IVi" id="oAH-OP-EuI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
