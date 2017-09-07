@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private var browserModel : BrowserModel
+    private var browserModel : BrowserModel = BrowserModel()
     
     //MARK: Outlets
     
@@ -47,7 +47,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        browserModel = BrowserModel()
     }
 
     override func didReceiveMemoryWarning() {
