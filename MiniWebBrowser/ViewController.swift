@@ -10,6 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: Outlets
+    
+    @IBOutlet weak var urlInput: UITextField!
+    
+    //MARK: Actions
+    
+    @IBAction func goToURL(_ sender: Any) {
+    }
+    
+    @IBAction func goBack(_ sender: Any) {
+    }
+    
+    @IBAction func goForward(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
