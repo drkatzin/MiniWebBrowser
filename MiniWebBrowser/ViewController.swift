@@ -26,8 +26,12 @@ class ViewController: UIViewController {
         //Should finish loading before allowing the user to make another loadRequest
     }
     
+    @IBAction func textResignFirstResponder(_ sender: Any) {
+        urlInput.resignFirstResponder()
+    }
+    
     @IBAction func goToURL(_ sender: Any) {
-        
+        urlInput.resignFirstResponder()
         if let newURL = urlInput.text {
             browserModel.visitNewURL(url: newURL)
             displayURLContents(urlString: browserModel.currentURL)
